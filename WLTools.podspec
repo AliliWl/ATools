@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "WLTools"
   s.version          = "0.1.0"
-  s.summary          = "A short description of WLTools."
+  s.summary          = "String Tool"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,14 +17,15 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+			a string tool with check string
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/WLTools"
+  s.homepage         = "https://github.com/AliliWl/WLTools"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "wangli" => "Aliliios@163.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/WLTools.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/AliliWl/WLTools.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/AliliWl'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
