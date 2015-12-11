@@ -1,0 +1,15 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'WLTools_Example', :exclusive => true do
+  pod "WLTools", :path => "../"
+end
+
+target 'WLTools_Tests', :exclusive => true do
+  pod "WLTools", :path => "../"
+
+  pod 'Specta'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'Expecta+Snapshots'
+end
