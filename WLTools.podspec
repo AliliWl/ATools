@@ -1,32 +1,15 @@
-#
-# Be sure to run `pod lib lint WLTools.podspec' to ensure this is a
-# valid spec before submitting.
-#
-# Any lines starting with a # are optional, but their use is encouraged
-# To learn more about a Podspec see http://guides.cocoapods.org/syntax/podspec.html
-#
-
 Pod::Spec.new do |s|
   s.name             = "WLTools"
   s.version          = "0.1.0"
-  s.summary          = "String Tool"
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!  
+  s.summary          = "String Tool"  
   s.description      = <<-DESC
 			a string tool with check string
                        DESC
 
-  s.homepage         = "https://github.com/AliliWl/WLTools"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/AliliWl"
   s.license          = 'MIT'
   s.author           = { "wangli" => "Aliliios@163.com" }
-  s.source           = { :git => "https://github.com/AliliWl/WLTools.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/AliliWl'
-
+  s.source           = { :git => "https://github.com/AliliWl/WLTools.git", :tag => "0.1.0" }
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
@@ -34,8 +17,4 @@ Pod::Spec.new do |s|
   s.resource_bundles = {
     'WLTools' => ['Pod/Assets/*.png']
   }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end
